@@ -1,8 +1,8 @@
 <?php
 		$host="localhost";
-		$user="root";
-		$password="";
-		$kie=mysql_connect($host,$user,$password);
-		mysql_select_db('ciment_mgt_db',$kie) or die ('Erreur de selection'.mysql_error());
+		$user="user";
+		$password="******************";
+		$kie=mysqli_connect($host,$user,$password);
+		mysqli_select_db($kie,'ciment_mgt_db') or die ('Erreur de selection');
 		          
 ?>
